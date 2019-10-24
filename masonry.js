@@ -128,7 +128,7 @@
 
     return {
       col: colGroup.indexOf( minimumY ),
-      y: minimumY,
+      y: Math.ceil(minimumY),// get the minimum Y value from the columns
     };
   };
 
